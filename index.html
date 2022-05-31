@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instrução e Musical Gaúcho</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<html>
+    <head>
+        <title>Instrução e Musical Gaúcho</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <h1>Instrução e Musical Gaúcho</h1>
+            </div>
+            <button onclick="abrirMenu()">&#9776;</button>
+            <ul id="botoesMenu">
+                <a href="#O que é CTG?">
+                    <li>
+                        <p>CTG</p>
+                    </li>
+                </a>
+                <a href="#Problema">
+                    <li>
+                        <p>Problema</p>
+                    </li>
+                </a>
+                <a href="#Ideia Principal">
+                    <li>
+                        <p>Ideia Principal</p>
+                    </li>
+                </a>
+                <a href="#Objetivo e estratégia">
+                    <li>
+                        <p>Objetivo e Estratégia</p>
+                    </li>
+                </a>
+                <a href="#Nicho e Proposta de Valor">
+                    <li>
+                        <p>Nicho e Proposta de Valor</p>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+
+        <div class="content" id="O que é CTG?" style="background-color: white"> 
+            <center>
+                <img src=".\Imagens\Baile.jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=40% height=50%>
+                <img src=".\Imagens\Invernada(3).jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=30% height=40%>
+            </center>
+            <div class="height-nav"></div>
+            <h2>O que é CTG?</h2>
+                <h3 style="font-size: 18px;"> CTG (Centro de Tradições Gaúchas) é uma sociedade civil sem fins lucrativos, que busca divulgar as tradições e o folclore da cultura gaúcha.
+                Cultiva a cultura e os costumes do estado do Rio Grande do Sul no Brasil e no mundo, visando a integração social dos seus participantes ao resgate e a reservação dos costumes dos gaúchos, através de atividades associativas e recreativas(dança, eventos e esporte).</h3>
+                <h3 style="font-size: 18px;">Cada ctg possui um grupo chamado de Invernada, que podem ser Mirim, Juvenil, Adulta, Veterana e Xirú.. Esses grupos são responsáveis por apresentações artísticas e culturais podendo ser: Danças tradicionais, Declamação, chula, etc.</h3>
+        </div>
+        <div class="content" id="Problema" style="background-color: white;">
+            <center>
+                <img src=".\Imagens\Instrutor.jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=40% height=50%>
+                <img src=".\Imagens\Musical.jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=30% height=40%>
+            </center>
+            <div class="height-nav"></div>
+            <h2>Problema</h2>
+            <h3 style="font-size: 18px;">Como encontrar novos instrutores de dança e grupos musicais que possam ser contratados para fazerem parte do grupo da invernada de forma mais prática?</h3>
+        </div>
+        <div class="content" id="Ideia Principal" style="background-color: white"> 
+            <div class="height-nav"></div>
+            <h2>Ideia Principal</h2>
+            <h3 style="font-size: 18px;">Através de um ambiente online facilitar a procura e contratação de instrutores e grupos musicais que irão trabalhar com os grupos de invernada.</h3>
+        </div>
+        <div class="content" id="Objetivo e estratégia" style="background-color: white"> 
+            <div class="height-nav"></div>
+            <h2>Nicho e Proposta de Valor</h2>
+            <h3 style="font-size: 18px;">Desenvolver, criar um modelo de negócio, prototipar, modelar o sistema, codificar e implantar o site "Instruções e Musical Gaúcho".</h3>
+        </div>
+        <div class="content" id="Nicho e Proposta de Valor" style="background-color: white"> 
+            <div class="height-nav"></div>
+            <h2>Nicho e Proposta de Valor</h2>
+            <h3 style="font-size: 18px;">CTG's que procuram instrutores e grupos musicais aifim de trabalhar junto com as invernadas.</h3>
+        </div>
+
+        <script>
+            const arrayHeight = document.getElementsByClassName('height-nav');
+            const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
+
+            for (let navHeightObj of arrayHeight)
+                navHeightObj.style.height = navHeight + 'px';
+
+            function abrirMenu() {
+                const botoesMenu = document.getElementById('botoesMenu');
+
+                botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
+            }
+        </script>
+    </body>
+</html>
