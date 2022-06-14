@@ -1,2 +1,2 @@
 # Projeto_PMI
-Equipe: Gabriel Vettorazzi e Marcio Rodrigues
+Equipe: Gabriel Vettorazzi, Marcio Rodrigues e Vinicius Basen
