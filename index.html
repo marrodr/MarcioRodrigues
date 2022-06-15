@@ -1,100 +1,194 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<html>
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./static/css/styles.css">
     <title>Instrução e Musical Gaúcho</title>
-    <link rel="stylesheet" href="./styles.css">
 </head>
-<html>
-    <head>
-        <title>Instrução e Musical Gaúcho</title>
-        <link rel="stylesheet" href="./styles.css">
-    </head>
-    <body>
-        <nav>
-            <div class="logo">
-                <h1>Instrução e Musical Gaúcho</h1>
+
+<body>
+    <!-- <nav>
+        <div class="logo">
+            <h1>Instrução e Musical Gaúcho</h1>
+        </div>
+        <button onclick="abrirMenu()">&#9776;</button>
+        <ul id="botoesMenu">
+            <a href="#O que é CTG?">
+                <li>
+                    <p>CTG</p>
+                </li>
+            </a>
+            <a href="#Problema">
+                <li>
+                    <p>Problema</p>
+                </li>
+            </a>
+            <a href="#Ideia Principal">
+                <li>
+                    <p>Ideia Principal</p>
+                </li>
+            </a>
+            <a href="#Objetivo e estratégia">
+                <li>
+                    <p>Objetivo e Estratégia</p>
+                </li>
+            </a>
+            <a href="#Nicho e Proposta de Valor">
+                <li>
+                    <p>Nicho e Proposta de Valor</p>
+                </li>
+            </a>
+        </ul>
+    </nav> -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(104, 93, 202); position: relative;">
+            <a class="navbar-brand" href="#">
+                <!-- <img src="./logoName.png" width="100px"></img> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-button" href="#about">O que é CTG?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-button" href="#problem">Problema</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-button" href="#mainIdea">Ideia Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-button" href="#objectiveAndStrategy">Objetivo e Estratégia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-button" href="#nicheAndProposition">Nicho e Proposta de Valor</a>
+                    </li>
+                </ul>
             </div>
-            <button onclick="abrirMenu()">&#9776;</button>
-            <ul id="botoesMenu">
-                <a href="#O que é CTG?">
-                    <li>
-                        <p>CTG</p>
-                    </li>
-                </a>
-                <a href="#Problema">
-                    <li>
-                        <p>Problema</p>
-                    </li>
-                </a>
-                <a href="#Ideia Principal">
-                    <li>
-                        <p>Ideia Principal</p>
-                    </li>
-                </a>
-                <a href="#Objetivo e estratégia">
-                    <li>
-                        <p>Objetivo e Estratégia</p>
-                    </li>
-                </a>
-                <a href="#Nicho e Proposta de Valor">
-                    <li>
-                        <p>Nicho e Proposta de Valor</p>
-                    </li>
-                </a>
-            </ul>
         </nav>
+    </header>
 
-        <div class="content" id="O que é CTG?" style="background-color: white"> 
-            <center>
-                <img src=".\Imagens\Baile.jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=40% height=50%>
-                <img src=".\Imagens\Invernada(3).jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=30% height=40%>
-            </center>
-            <div class="height-nav"></div>
-            <h2>O que é CTG?</h2>
-                <h3 style="font-size: 18px;"> CTG (Centro de Tradições Gaúchas) é uma sociedade civil sem fins lucrativos, que busca divulgar as tradições e o folclore da cultura gaúcha.
-                Cultiva a cultura e os costumes do estado do Rio Grande do Sul no Brasil e no mundo, visando a integração social dos seus participantes ao resgate e a reservação dos costumes dos gaúchos, através de atividades associativas e recreativas(dança, eventos e esporte).</h3>
-                <h3 style="font-size: 18px;">Cada ctg possui um grupo chamado de Invernada, que podem ser Mirim, Juvenil, Adulta, Veterana e Xirú.. Esses grupos são responsáveis por apresentações artísticas e culturais podendo ser: Danças tradicionais, Declamação, chula, etc.</h3>
-        </div>
-        <div class="content" id="Problema" style="background-color: white;">
-            <center>
-                <img src=".\Imagens\Instrutor.jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=40% height=50%>
-                <img src=".\Imagens\Musical.jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=30% height=40%>
-            </center>
-            <div class="height-nav"></div>
-            <h2>Problema</h2>
-            <h3 style="font-size: 18px;">Como encontrar novos instrutores de dança e grupos musicais que possam ser contratados para fazerem parte do grupo da invernada de forma mais prática?</h3>
-        </div>
-        <div class="content" id="Ideia Principal" style="background-color: white"> 
-            <div class="height-nav"></div>
-            <h2>Ideia Principal</h2>
-            <h3 style="font-size: 18px;">Através de um ambiente online facilitar a procura e contratação de instrutores e grupos musicais que irão trabalhar com os grupos de invernada.</h3>
-        </div>
-        <div class="content" id="Objetivo e estratégia" style="background-color: white"> 
-            <div class="height-nav"></div>
-            <h2>Nicho e Proposta de Valor</h2>
-            <h3 style="font-size: 18px;">Desenvolver, criar um modelo de negócio, prototipar, modelar o sistema, codificar e implantar o site "Instruções e Musical Gaúcho".</h3>
-        </div>
-        <div class="content" id="Nicho e Proposta de Valor" style="background-color: white"> 
-            <div class="height-nav"></div>
-            <h2>Nicho e Proposta de Valor</h2>
-            <h3 style="font-size: 18px;">CTG's que procuram instrutores e grupos musicais aifim de trabalhar junto com as invernadas.</h3>
-        </div>
+    <div class="jumbotron">
+        <!-- <h1 class="display-4">Hello, world!</h1> -->
+        <h1 class="display-4">Instrução e Musical Gaúcho</h1>
+        <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+            featured content or information.</p> -->
+        <!-- <hr class="my-4"> -->
+    </div>
 
-        <script>
-            const arrayHeight = document.getElementsByClassName('height-nav');
-            const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
+    <div id="carousel" class="carousel slide" data-ride="carousel" style="margin: 0px 200px 50px">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 
-            for (let navHeightObj of arrayHeight)
-                navHeightObj.style.height = navHeight + 'px';
+        </ol>
+        <div class="carousel-inner" >
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./static/images/Baile.jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem"
+                    width=40% height=50%>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./static/images/Invernada(3).jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem"
+                    width=30% height=40%>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./static/images/Instrutor.jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./static/images/Musical.jpg" alt="Ops... algo de errado não está certo =S Revise o diretório da imagem"
+                    width=30% height=40%>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
-            function abrirMenu() {
-                const botoesMenu = document.getElementById('botoesMenu');
+    <div class="content" id="about">
+        <!-- <center> -->
+            <!-- <img src="./static/images/Baile.jpg"
+                alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=40% height=50%>
+            <img src="./static/images/Invernada(3).jpg"
+                alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=30% height=40%> -->
+        <!-- </center> -->
+        <!-- <div class="height-nav"></div> -->
+        <h2>O que é CTG?</h2>
+        <h3 style="font-size: 18px;"> CTG (Centro de Tradições Gaúchas) é uma sociedade civil sem fins lucrativos, que
+            busca divulgar as tradições e o folclore da cultura gaúcha.
+            Cultiva a cultura e os costumes do estado do Rio Grande do Sul no Brasil e no mundo, visando a integração
+            social dos seus participantes ao resgate e a reservação dos costumes dos gaúchos, através de atividades
+            associativas e recreativas(dança, eventos e esporte).</h3>
+        <h3 style="font-size: 18px;">Cada ctg possui um grupo chamado de Invernada, que podem ser Mirim, Juvenil,
+            Adulta, Veterana e Xirú.. Esses grupos são responsáveis por apresentações artísticas e culturais podendo
+            ser: Danças tradicionais, Declamação, chula, etc.</h3>
+    </div>
+    <div class="content" id="problem">
+        <!-- <center> -->
+            <!-- <img src="./static/images/Instrutor.jpg"
+                alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=40% height=50%>
+            <img src="./static/images/Musical.jpg"
+                alt="Ops... algo de errado não está certo =S Revise o diretório da imagem" width=30% height=40%> -->
+        <!-- </center> -->
+        <!-- <div class="height-nav"></div> -->
+        <h2>Problema</h2>
+        <h3 style="font-size: 18px;">Como encontrar novos instrutores de dança e grupos musicais que possam ser
+            contratados para fazerem parte do grupo da invernada de forma mais prática?</h3>
+    </div>
+    <div class="content" id="mainIdea">
+        <!-- <div class="height-nav"></div> -->
+        <h2>Ideia Principal</h2>
+        <h3 style="font-size: 18px;">Através de um ambiente online facilitar a procura e contratação de instrutores e
+            grupos musicais que irão trabalhar com os grupos de invernada.</h3>
+    </div>
+    <div class="content" id="objectiveAndStrategy">
+        <!-- <div class="height-nav"></div> -->
+        <h2>Objetivo e Estratégia</h2>
+        <h3 style="font-size: 18px;">Desenvolver, criar um modelo de negócio, prototipar, modelar o sistema, codificar e
+            implantar o site "Instruções e Musical Gaúcho".</h3>
+    </div>
+    <div class="content" id="nicheAndProposition">
+        <!-- <div class="height-nav"></div> -->
+        <h2>Nicho e Proposta de Valor</h2>
+        <h3 style="font-size: 18px;">CTG's que procuram instrutores e grupos musicais aifim de trabalhar junto com as
+            invernadas.</h3>
+    </div>
 
-                botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
-            }
-        </script>
-    </body>
+    <footer>
+        <h2>Participantes</h2>
+        <p>Gabriel Vetorazzi</p>
+        <p>Márcio</p>
+        <p>Vinicius Besen</p>
+    </footer>
+
+    <!-- <script>
+        const arrayHeight = document.getElementsByClassName('height-nav');
+        const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
+
+        for (let navHeightObj of arrayHeight)
+            navHeightObj.style.height = navHeight + 'px';
+
+        function abrirMenu() {
+            const botoesMenu = document.getElementById('botoesMenu');
+
+            botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
+        }
+    </script> -->
+</body>
+
 </html>

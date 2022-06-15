@@ -1,24 +1,24 @@
 html {
     scroll-behavior: smooth;
 }
-background-image:url("Imagens/danca.jpeg")
 
-a {
-    text-decoration: none;
+* {
+    text-align: center !important;
 }
+
+h1 {
+    margin: 20px;
+    padding: 10px;
+}
+
+/* background-image:url("images/danca.jpeg") */
 
 body {
     margin: 0;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    overflow: hidden;
-    transition: all .5s;
-}
-
-nav {
+/* 
+/* nav {
     background-color: #161616;
     padding: 0 20px;
     justify-content: space-between;
@@ -26,29 +26,20 @@ nav {
     position: fixed;
     width: calc(100% - 40px);
     top: 0;
-}
+} */
 
-h1,
-p {
-    color: #FFF;
-}
-
-nav,
+/* nav,
 ul {
     display: flex;
     flex-direction: row;
-}
+} */
 
-li {
+/* li {
     padding: 0 20px;
-}
+} */
 
-h1 {
-    margin: 0;
-    padding: 10px;
-}
 
-button {
+/* button {
     background-color: transparent;
     border: none;
     color: #FFF;
@@ -57,23 +48,27 @@ button {
     right: 10px;
     top: 10px;
     display: none;
-}
+} */
 
-a:hover,
+/* a:hover,
 h1:hover,
 button:hover {
     cursor: pointer;
     opacity: 0.8;
     background-color: rgba(255, 255, 255, 0.2);
-}
+} */
 
 .content {
-    background-color: #606060;
-    width: 100%;
-    height: 100vh;
+    /* background-color: #606060; */
+    margin: 20px 15px 30px 15px;
+    padding: 25px;
+    /* width: 100%; */
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow: 0 0 1em black;
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
 
     nav,
     ul {
@@ -107,4 +102,4 @@ button:hover {
     ul.responsivo {
         height: 260px;
     }
-}
+} */
