@@ -12,15 +12,20 @@ h1 {
 }
 
 h2 {
-    font-size: 64px;
+    font-size: 4rem;
 }
 
 h3 {
-    font-size: 32px;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+li > a {
+    font-size: 1.2rem !important;
 }
 
 footer > p {
-    font-size: 28px;
+    font-size: 1.5rem;
 }
 
 /* background-image:url("images/danca.jpeg") */
@@ -38,7 +43,7 @@ body {
     /* background-color: #606060; */
     margin: 20px 15px 30px 15px;
     padding: 25px;
-    height: 70vh;
+    /* height: 70vh; */
     border-radius: 20px;
     box-shadow: 0 0 1em black;
 }
