@@ -11,52 +11,28 @@ h1 {
     padding: 10px;
 }
 
+h2 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+footer > p {
+    font-size: 28px;
+}
+
 /* background-image:url("images/danca.jpeg") */
 
 body {
     margin: 0;
 }
 
-/* 
-/* nav {
-    background-color: #161616;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: calc(100% - 40px);
-    top: 0;
-} */
-
-/* nav,
-ul {
+.logo {
     display: flex;
-    flex-direction: row;
-} */
-
-/* li {
-    padding: 0 20px;
-} */
-
-
-/* button {
-    background-color: transparent;
-    border: none;
-    color: #FFF;
-    font-size: 36px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    display: none;
-} */
-
-/* a:hover,
-h1:hover,
-button:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    background-color: rgba(255, 255, 255, 0.2);
-} */
+    justify-content: center;
+}
 
 .content {
     /* background-color: #606060; */
