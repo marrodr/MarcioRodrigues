@@ -1,5 +1,5 @@
 # Projeto_PMI
-Canvas: https://miro.com/app/board/uXjVPAYcdzU=/?share_link_id=156025699751
+Canvas: https://miro.com/app/board/uXjVP_EqKIM=/
 
 
 Equipe: Gabriel Vettorazzi, Marcio Rodrigues e Vinicius Basen
